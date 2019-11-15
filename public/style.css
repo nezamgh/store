@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+
+	/*background-image:linear-gradient(to top left,#f00 50%,#FC0,#FF0,#0F0,#00F);*/
+	/*background-image:url(pic/tulips.jpeg);
+    /*background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.8));*/
+	/*background-color:#6FF;*/
+
+
+	/*background-image:radial-gradient(#FF0,#900);*/
+
+	background-attachment:fixed;
+	background-size:100% 100%;
+
+}
+.div-kol{
+	width:990px;
+	height:auto;
+	border:#000 solid 2px;
+	margin:auto;
+	font-family:Tahoma;
+	background-color:gray;
+
+
+}
+
+.header{
+	width:100%;
+	height:70px;
+	background-color:lightgray;
+	background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5));
+}
+
+
+.header_menu{
+	width:100%;
+	height:90px;
+	float:right;
+	background-color:#6cb2eb;
+	background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5));
+
+}
+
+.header_menu_sub{
+	width:98%;
+	height:90px;
+	border:#000 solid 0px;
+	margin:5px 10px;
+	float:right;
+	text-align:center;
+	line-height:55px;
+}
+
+.header_menu_sub a{
+	color:#000;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:13px;
+	transition:all 0.5s;
+}
+
+.header_menu_sub a:hover{
+	color:#060;
+	text-decoration:underline;
+}
+
+
+.header_formlogin{
+	width:50%;
+	height:70px;
+	background-color:#CCC;
+	float:left;
+	direction:rtl;
+	line-height:65px;
+}
+
+.input_login{
+	width:130px;
+	height:30px;
+	background-color:transparent;
+	border:none;
+	border-bottom:2px dotted #FFF;
+	color:#FFF;
+	margin:5px;
+	transition:all 0.5s;
+	font-weight:bold;
+}
+
+
+.input_login:hover{
+	border-bottom:2px dashed #F00;
+
+}
+
+.input_login:focus{
+	border-bottom:2px solid #FF0;
+
+}
+
+.but_login{
+	margin:10px;
+	float:left;
+	width:45px;
+	transition:all 0.5s;
+}
+
+
+.but_login:hover{
+	background-color:#FF6;
+	border-radius:50%;
+}
+/**********************************************/
+.baner{
+	width:auto;
+	height:90px;
+	border:#000 solid 0px;
+	margin:5px 10px;
+	text-align:center;
+	direction:rtl;
+	line-height:55px;
+	background-color:gray;
+}
+
+.baner_logo{
+	width:60%;
+	height:50px;
+	background-color:#CCC;
+	float:right;
+}
+
+
+
+.baner_search{
+	width:30%;
+	height:150px;
+	background-color:bisque;
+	float:left;
+	direction:rtl;
+	line-height:140px;
+}
+
+.input_search{
+	width:230px;
+	height:30px;
+	background-color:darkgray;
+	border:none;
+	border-bottom:2px dotted #333;
+	color:#333;
+	margin:5px;
+}
+/*********************************/
+.daste_slider{
+
+	height:400px;
+	background-color:#636b6f;
+}
+
+.daste_slider_right {
+	width: 100%;
+	height: 400px;
+	background-color: lightgrey;
+
+}
+.daste_slider_right{
+	width:98%;
+	height:400px;
+	border:#000 solid 0px;
+	margin:5px 10px;
+	float:right;
+	text-align:center;
+	direction:rtl;
+	line-height:55px;
+}
+
+.daste_slider_right a{
+	color:#000;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:13px;
+	transition:all 0.5s;
+}
+
+.daste_slider_right a:hover{
+	color:#060;
+	text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+.footer{
+	width:100%;
+	height:60px;
+	background-color:antiquewhite;
+	clear:both;
+}
+
+
+
+
+
+
+
+
